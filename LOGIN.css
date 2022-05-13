@@ -6,7 +6,7 @@
 #header1{
     background-color: #000000;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     padding: 0px 10px 0px 10px;
 
 }
@@ -15,18 +15,17 @@
     display: flex;
     font-weight: bold;
     font-size: xx-large;
-    color: #000000;
-    justify-content: center;  
-    padding: 0px 30px 0px 30px;
+    color: #000000;  
+    justify-content: space-evenly;
 }
-#menu{
-    width: 30%;
+.menu{
+    width: 100%;
     justify-content: space-evenly;
     display: flex;
 }
 
 
-#menu>a{
+.menu>a{
     color: #ffffffe7;
     text-decoration: none;
     font-size: 0.7rem;
@@ -34,8 +33,18 @@
     padding: 10px 0 10px 0;
        
 }
-
-#menu>a:hover{
+#Iniciar_sesion{
+    background-color: rgb(3, 196, 255) ;
+    padding-top: 10vh;
+}
+.container{
+    display: flex;
+   justify-content: center;
+   background-color:rgb(3, 196, 255) ;
+   padding-bottom: 20vh;
+   
+}
+.menu>a:hover{
     border-top: 5px #00a6ff solid;
 }
 
@@ -45,14 +54,14 @@
     background-color: rgb(3, 196, 255);
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-
+    height: 61vh ;
 }
 footer {
 	background: #000000;
-	padding: 60px 0 30px 0;
+    padding: 60px 0 30px 0;
 	margin:auto;
 	overflow: hidden;
 }
@@ -75,4 +84,40 @@ footer {
 }
 .content-foo p{
 	color: rgb(252, 247, 247);
+}
+@media (max-width:750px){
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+}
+@media (max-width:900px){
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+}
+@media (max-width:1200px){
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+}
+@media (max-width:1400px){
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+}
+@media (max-width:1600px){
+    .menu{
+        width: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
 }
